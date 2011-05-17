@@ -30,6 +30,9 @@ urls.each do |name, url|
       if tds[2].text.strip != ''
         str_time = date.to_s + 'T' + tds[2].text.gsub('h', '')
         time = Time.parse(str_time)
+        if time.hour < 6
+          time = time + (24*60*60)
+        end        
         dtstart = time.with_floating_timezone
         dtend   = (time + (60 * 60)).with_floating_timezone
       else
