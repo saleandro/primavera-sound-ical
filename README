@@ -1,0 +1,19 @@
+This is a scraper to create icalendars from Primavera Sound's timetable.
+
+Assumptions:
+- Events last an hour, that's probably not true, but I needed an end time
+- Times are local, so this will make more sense when we're all in Barcelona sipping sangria.
+- Events with no time are set as all day.
+
+This generates one big calendar with all events, and 3 others, one for each stream:
+- Primavera a la ciutat
+- Parc del Forum
+- Poble Espanyol
+
+I've put the generated files here:
+http://dl.dropbox.com/u/3131852/primavera_timetable/parc_del_forum.ics
+http://dl.dropbox.com/u/3131852/primavera_timetable/poble_espanyol.ics
+http://dl.dropbox.com/u/3131852/primavera_timetable/primavera_a_la_ciutat.ics
+http://dl.dropbox.com/u/3131852/primavera_timetable/primavera_sound_2011.ics
+
+Have fun!
