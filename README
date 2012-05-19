@@ -1,3 +1,8 @@
+FOR 2012: https://github.com/w0rm/primavera-sound-2012-ical.py
+(thanks Andrey!)
+
+This was for 2011... This year, they changed the website a lot so my scraper won't work.
+
 This is a scraper to create icalendars from Primavera Sound's timetable.
 
 Assumptions:
